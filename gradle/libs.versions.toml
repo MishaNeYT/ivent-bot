@@ -1,0 +1,22 @@
+[versions]
+shadow = "8.3.9"
+annotations = "24.1.0"
+lombok = "1.18.36"
+slf4j = "2.0.17"
+gson = "2.13.2"
+logback-core = "1.5.25"
+logback-classic = "1.5.13"
+telegrambots = "9.2.1"
+picocli = "4.7.6"
+
+[libraries]
+shadow = { group = "com.gradleup.shadow", name = "shadow-gradle-plugin", version.ref = "shadow" }
+annotations = { group = "org.jetbrains", name = "annotations", version.ref = "annotations" }
+lombok = { group = "org.projectlombok", name = "lombok", version.ref = "lombok" }
+slf4j = { group = "org.slf4j", name = "slf4j-api", version.ref = "slf4j"}
+gson = { group = "com.google.code.gson", name = "gson", version.ref = "gson" }
+logback-core = { group = "ch.qos.logback", name = "logback-classic", version.ref = "logback-core" }
+logback-classic = { group = "ch.qos.logback", name = "logback-classic", version.ref = "logback-classic" }
+telegrambots-longpolling = { group = "org.telegram", name = "telegrambots-longpolling", version.ref = "telegrambots" }
+telegrambots-client = { group = "org.telegram", name = "telegrambots-client", version.ref = "telegrambots" }
+picocli = { group = "info.picocli", name = "picocli", version.ref = "picocli" }

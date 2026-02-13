@@ -1,0 +1,8 @@
+pluginManagement {
+    includeBuild 'build-logic'
+}
+
+rootProject.name = 'ivent-bot'
+
+include 'ivent-bot-api'
+include 'ivent-bot-core'
